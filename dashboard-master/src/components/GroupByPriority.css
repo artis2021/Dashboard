@@ -1,0 +1,27 @@
+.group-by-priority{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.priority{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.priority-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

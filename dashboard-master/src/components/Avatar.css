@@ -1,0 +1,35 @@
+.avatar{
+    display:flex;
+    flex-direction: column;
+}
+
+.avatar-img{
+    width:35px;
+    background: rgb(255, 172, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    border-radius: 50%;
+    border: 2px solid #f1f1f1;
+}
+.avatar-img p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.avatar img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+
+.avatar-info{
+    transform: translate(23px, -11px);
+
+    /* gray for offline */
+    color: #ccc;
+
+    /* green for online */
+    color: #26f87d;
+}

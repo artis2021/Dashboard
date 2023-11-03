@@ -1,0 +1,40 @@
+/* Style for card */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+}
+
+.card-section, .tag{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.mid h6{
+    font-weight: 600 !important;
+}
+
+.bottom{
+    margin-top: 10px;
+}
+.tag{
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.bottom p{
+    color: #666;
+    margin: 0;
+}
+
+.top h5{
+    color:  #acacac;
+}

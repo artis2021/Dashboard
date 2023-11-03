@@ -1,0 +1,14 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app .container{
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,25 @@
+.group-by-user{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
